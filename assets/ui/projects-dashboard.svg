@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="455" viewBox="0 0 1000 455" role="img" aria-labelledby="title desc">
+  <title id="title">Featured deployments</title>
+  <desc id="desc">Three concise project cards for MedCall, University Digital Twin, and Ancient Hebrew OCR.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <filter id="projectGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="455" rx="22" fill="#06080D"/>
+  <g font-family="JetBrains Mono, Fira Code, Consolas, monospace">
+    <g>
+      <animate attributeName="opacity" values="0;1" dur=".4s" begin=".05s" fill="freeze"/>
+      <text x="32" y="38" fill="#22D3EE" font-size="10" font-weight="700" letter-spacing="2">PROJECTS.LIST</text>
+      <text x="142" y="38" fill="#536987" font-size="9">~/deployments.sh --featured</text>
+      <path d="M32 55H968" stroke="#20324A"/>
+      <text x="500" y="88" text-anchor="middle" fill="#E6EDF3" font-size="20" font-weight="700">FEATURED DEPLOYMENTS</text>
+    </g>
+
+    <g>
+      <animate attributeName="opacity" values="0;1" dur=".45s" begin=".25s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="-14 0;0 0" dur=".45s" begin=".25s" fill="freeze"/>
+      <rect x="32" y="112" width="456" height="136" rx="12" fill="#0B1220" stroke="#164E63"/>
+      <rect x="32" y="112" width="4" height="136" rx="2" fill="#22D3EE"/>
+      <circle cx="454" cy="144" r="20" fill="#111827" stroke="#22D3EE"/>
+      <text x="454" y="149" text-anchor="middle" fill="#22D3EE" font-size="11" font-weight="700">01</text>
+      <circle cx="452" cy="223" r="4" fill="#22D3EE"/>
+      <text x="48" y="143" fill="#22D3EE" font-size="15" font-weight="700">MedCall / NIDAA AL-DAWA</text>
+      <text x="48" y="169" fill="#A8B5C7" font-size="10">Geographical medicine-request routing</text>
+      <text x="48" y="188" fill="#A8B5C7" font-size="10">between patients and available pharmacies.</text>
+      <rect x="48" y="210" width="59" height="22" rx="11" fill="#18132B" stroke="#A855F7" stroke-opacity=".55"/>
+      <text x="77.5" y="224" text-anchor="middle" fill="#A855F7" font-size="8">.NET</text>
+      <rect x="114" y="210" width="88" height="22" rx="11" fill="#0E2029" stroke="#22D3EE" stroke-opacity=".5"/>
+      <text x="158" y="224" text-anchor="middle" fill="#22D3EE" font-size="8">SQL SERVER</text>
+      <text x="437" y="226" text-anchor="end" fill="#536987" font-size="8">ACTIVE</text>
+    </g>
+
+    <g>
+      <animate attributeName="opacity" values="0;1" dur=".45s" begin=".48s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="14 0;0 0" dur=".45s" begin=".48s" fill="freeze"/>
+      <rect x="512" y="112" width="456" height="136" rx="12" fill="#0B1220" stroke="#2F2556"/>
+      <rect x="964" y="112" width="4" height="136" rx="2" fill="#A855F7"/>
+      <circle cx="934" cy="144" r="20" fill="#111827" stroke="#A855F7"/>
+      <text x="934" y="149" text-anchor="middle" fill="#A855F7" font-size="11" font-weight="700">02</text>
+      <circle cx="932" cy="223" r="4" fill="#A855F7"/>
+      <text x="528" y="143" fill="#A855F7" font-size="15" font-weight="700">University Digital Twin</text>
+      <text x="528" y="169" fill="#A8B5C7" font-size="10">Institutional data model for operations,</text>
+      <text x="528" y="188" fill="#A8B5C7" font-size="10">analytics, resources, and decision workflows.</text>
+      <rect x="528" y="210" width="96" height="22" rx="11" fill="#18132B" stroke="#A855F7" stroke-opacity=".55"/>
+      <text x="576" y="224" text-anchor="middle" fill="#A855F7" font-size="8">DATA SYSTEMS</text>
+      <rect x="632" y="210" width="60" height="22" rx="11" fill="#0E2029" stroke="#22D3EE" stroke-opacity=".5"/>
+      <text x="662" y="224" text-anchor="middle" fill="#22D3EE" font-size="8">T-SQL</text>
+      <text x="917" y="226" text-anchor="end" fill="#536987" font-size="8">BUILDING</text>
+    </g>
+
+    <g>
+      <animate attributeName="opacity" values="0;1" dur=".5s" begin=".72s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 14;0 0" dur=".5s" begin=".72s" fill="freeze"/>
+      <rect x="32" y="272" width="936" height="144" rx="12" fill="#0B1220" stroke="url(#edge)"/>
+      <path d="M56 375H831" stroke="#20324A"/>
+      <path d="M56 375H686" stroke="url(#edge)" stroke-width="2">
+        <animate attributeName="stroke-dasharray" values="0 630;630 0" dur="1.1s" begin=".9s" fill="freeze"/>
+      </path>
+      <circle cx="912" cy="324" r="34" fill="#111827" stroke="url(#edge)" stroke-width="2"/>
+      <text x="912" y="319" text-anchor="middle" fill="#22D3EE" font-size="9">R&amp;D</text>
+      <text x="912" y="336" text-anchor="middle" fill="#E6EDF3" font-size="11" font-weight="700">03</text>
+      <text x="56" y="308" fill="#E6EDF3" font-size="16" font-weight="700">Ancient Hebrew OCR Pipeline</text>
+      <text x="56" y="334" fill="#A8B5C7" font-size="10">Synthetic pre-training and real-image adaptation for historical-script recognition.</text>
+      <rect x="56" y="350" width="66" height="22" rx="11" fill="#0E2029" stroke="#22D3EE" stroke-opacity=".5"/>
+      <text x="89" y="364" text-anchor="middle" fill="#22D3EE" font-size="8">PYTORCH</text>
+      <rect x="130" y="350" width="62" height="22" rx="11" fill="#18132B" stroke="#A855F7" stroke-opacity=".55"/>
+      <text x="161" y="364" text-anchor="middle" fill="#A855F7" font-size="8">OPENCV</text>
+      <rect x="200" y="350" width="48" height="22" rx="11" fill="#0E2029" stroke="#22D3EE" stroke-opacity=".5"/>
+      <text x="224" y="364" text-anchor="middle" fill="#22D3EE" font-size="8">OCR</text>
+      <text x="56" y="400" fill="#536987" font-size="8" letter-spacing="1">PIPELINE STATUS</text>
+      <text x="686" y="400" text-anchor="end" fill="#22D3EE" font-size="8">RESEARCH ACTIVE</text>
+    </g>
+
+    <g>
+      <animate attributeName="opacity" values="0;1" dur=".35s" begin="1.1s" fill="freeze"/>
+      <circle cx="473" cy="438" r="3" fill="#22D3EE" filter="url(#projectGlow)"/>
+      <circle cx="487" cy="438" r="3" fill="#164E63"/>
+      <circle cx="501" cy="438" r="3" fill="#A855F7"/>
+      <circle cx="515" cy="438" r="3" fill="#2F2556"/>
+      <circle cx="529" cy="438" r="3" fill="#22D3EE"/>
+    </g>
+  </g>
+</svg>

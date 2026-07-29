@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="510" viewBox="0 0 1000 510" role="img" aria-labelledby="title desc">
+  <title id="title">Malek Nabil system profile console</title>
+  <desc id="desc">A futuristic developer console with an identity node and concise system information that appears progressively.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14F1D9"/>
+      <stop offset=".52" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <radialGradient id="avatarHalo" cx=".5" cy=".44" r=".65">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity=".2"/>
+      <stop offset=".58" stop-color="#1F6FEB" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="microGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#22D3EE" stroke-opacity=".035"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="panelClip">
+      <rect x="18" y="18" width="964" height="474" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1000" height="510" rx="24" fill="#06080D"/>
+  <rect x="18" y="18" width="964" height="474" rx="18" fill="#0D1117" stroke="url(#frame)" stroke-width="1.4"/>
+  <rect x="19" y="19" width="962" height="472" rx="17" fill="url(#microGrid)"/>
+
+  <g clip-path="url(#panelClip)" font-family="JetBrains Mono, Fira Code, Consolas, monospace">
+    <g>
+      <animate attributeName="opacity" values="0;1" dur=".4s" begin=".05s" fill="freeze"/>
+      <rect x="18" y="18" width="964" height="48" fill="#0B1220"/>
+      <path d="M18 66H982" stroke="#20324A"/>
+      <circle cx="43" cy="42" r="5" fill="#FF5F57"/>
+      <circle cx="62" cy="42" r="5" fill="#FEBC2E"/>
+      <circle cx="81" cy="42" r="5" fill="#28C840"/>
+      <text x="500" y="46" text-anchor="middle" fill="#6B7F9C" font-size="11">malek@bitsoft: ~/profile.sh --live</text>
+      <text x="956" y="46" text-anchor="end" fill="#22D3EE" font-size="9" letter-spacing="1">SECURE NODE</text>
+    </g>
+
+    <g>
+      <animate attributeName="opacity" values="0;1" dur=".45s" begin=".35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur=".45s" begin=".35s" fill="freeze"/>
+      <text x="48" y="98" fill="#536987" font-size="9" letter-spacing="3">VISUAL.IDENTITY.NODE</text>
+      <rect x="48" y="112" width="314" height="303" rx="10" fill="#08101D" stroke="#164E63"/>
+      <rect x="60" y="124" width="290" height="279" rx="6" fill="url(#avatarHalo)" stroke="#22D3EE" stroke-opacity=".18"/>
+      <path d="M61 150v-25h25M324 125h25v25M61 377v25h25M324 402h25v-25" fill="none" stroke="#22D3EE" stroke-width="2"/>
+      <circle cx="205" cy="254" r="94" fill="none" stroke="#22D3EE" stroke-opacity=".16"/>
+      <circle cx="205" cy="254" r="73" fill="none" stroke="#A855F7" stroke-opacity=".28" stroke-dasharray="4 9">
+        <animateTransform attributeName="transform" type="rotate" from="0 205 254" to="360 205 254" dur="18s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="205" cy="254" r="57" fill="#0B1220" stroke="url(#frame)" stroke-width="2"/>
+      <text x="205" y="268" text-anchor="middle" fill="#E6EDF3" font-size="42" font-weight="700" letter-spacing="2">MN</text>
+      <path d="M205 151v20M205 337v20M102 254h20M288 254h20" stroke="#22D3EE" stroke-opacity=".65"/>
+      <circle cx="205" cy="151" r="3" fill="#22D3EE" filter="url(#softGlow)"/>
+      <circle cx="308" cy="254" r="3" fill="#A855F7"/>
+      <rect x="107" y="365" width="196" height="24" rx="12" fill="#111827" stroke="#164E63"/>
+      <circle cx="126" cy="377" r="4" fill="#22D3EE">
+        <animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="205" y="381" text-anchor="middle" fill="#A8B5C7" font-size="10" letter-spacing="1">IDENTITY VERIFIED</text>
+    </g>
+
+    <g>
+      <animate attributeName="opacity" values="0;1" dur=".4s" begin=".7s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="10 0;0 0" dur=".4s" begin=".7s" fill="freeze"/>
+      <text x="394" y="101" fill="#22D3EE" font-size="12" font-weight="700" letter-spacing="1.4">SYSTEM.INFO</text>
+      <circle cx="929" cy="97" r="3" fill="#22D3EE">
+        <animate attributeName="opacity" values="1;.2;1" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="941" y="101" fill="#22D3EE" font-size="9">LIVE</text>
+      <path d="M394 112H952" stroke="#20324A"/>
+    </g>
+
+    <g font-size="11">
+      <g>
+        <animate attributeName="opacity" values="0;1" dur=".3s" begin=".92s" fill="freeze"/>
+        <text x="394" y="140" fill="#22D3EE">Name</text><path d="M447 136H715" stroke="#32445E" stroke-dasharray="2 5"/><text x="948" y="140" text-anchor="end" fill="#E6EDF3" font-weight="700">Malek Nabil</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur=".3s" begin="1.08s" fill="freeze"/>
+        <text x="394" y="169" fill="#22D3EE">Role</text><path d="M447 165H662" stroke="#32445E" stroke-dasharray="2 5"/><text x="948" y="169" text-anchor="end" fill="#E6EDF3" font-weight="700">Data Engineering Lead @ BitSoft</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur=".3s" begin="1.24s" fill="freeze"/>
+        <text x="394" y="198" fill="#22D3EE">Focus</text><path d="M447 194H667" stroke="#32445E" stroke-dasharray="2 5"/><text x="948" y="198" text-anchor="end" fill="#E6EDF3" font-weight="700">Backend · Data · Computer Vision</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur=".3s" begin="1.40s" fill="freeze"/>
+        <text x="394" y="227" fill="#22D3EE">Education</text><path d="M472 223H746" stroke="#32445E" stroke-dasharray="2 5"/><text x="948" y="227" text-anchor="end" fill="#E6EDF3" font-weight="700">Ibb University</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur=".3s" begin="1.56s" fill="freeze"/>
+        <text x="394" y="256" fill="#22D3EE">Toolchain</text><path d="M472 252H676" stroke="#32445E" stroke-dasharray="2 5"/><text x="948" y="256" text-anchor="end" fill="#E6EDF3" font-weight="700">C# · .NET · T-SQL · Python</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur=".3s" begin="1.72s" fill="freeze"/>
+        <text x="394" y="285" fill="#22D3EE">Research</text><path d="M466 281H718" stroke="#32445E" stroke-dasharray="2 5"/><text x="948" y="285" text-anchor="end" fill="#E6EDF3" font-weight="700">OCR · GANs · pixelNeRF</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur=".3s" begin="1.88s" fill="freeze"/>
+        <text x="394" y="314" fill="#22D3EE">Projects</text><path d="M466 310H699" stroke="#32445E" stroke-dasharray="2 5"/><text x="948" y="314" text-anchor="end" fill="#E6EDF3" font-weight="700">MedCall · Digital Twin</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur=".3s" begin="2.04s" fill="freeze"/>
+        <text x="394" y="343" fill="#22D3EE">Location</text><path d="M466 339H809" stroke="#32445E" stroke-dasharray="2 5"/><text x="948" y="343" text-anchor="end" fill="#E6EDF3" font-weight="700">Yemen</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur=".3s" begin="2.20s" fill="freeze"/>
+        <text x="394" y="372" fill="#22D3EE">Status</text><path d="M454 368H782" stroke="#32445E" stroke-dasharray="2 5"/><text x="948" y="372" text-anchor="end" fill="#22D3EE" font-weight="700">SYSTEM ONLINE</text>
+      </g>
+    </g>
+
+    <g>
+      <animate attributeName="opacity" values="0;1" dur=".4s" begin="2.42s" fill="freeze"/>
+      <rect x="394" y="394" width="558" height="40" rx="6" fill="#08101D" stroke="#20324A"/>
+      <text x="412" y="419" fill="#A855F7" font-size="11">$</text>
+      <text x="430" y="419" fill="#A8B5C7" font-size="11">engineering reliable systems where data meets intelligence</text>
+      <rect x="925" y="408" width="7" height="14" fill="#22D3EE">
+        <animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g>
+      <animate attributeName="opacity" values="0;1" dur=".4s" begin="2.62s" fill="freeze"/>
+      <text x="48" y="465" fill="#536987" font-size="9" letter-spacing="1.5">BOOT.SEQUENCE</text>
+      <rect x="151" y="459" width="801" height="6" rx="3" fill="#111827"/>
+      <rect x="151" y="459" width="801" height="6" rx="3" fill="url(#frame)">
+        <animate attributeName="width" values="0;801" dur="1.25s" begin=".35s" fill="freeze"/>
+      </rect>
+      <text x="952" y="480" text-anchor="end" fill="#6B7F9C" font-size="8">ALL MODULES READY</text>
+    </g>
+  </g>
+</svg>

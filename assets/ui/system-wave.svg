@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="96" viewBox="0 0 1000 96" role="img" aria-labelledby="title desc">
+  <title id="title">MALEK.OS shutdown signal</title>
+  <desc id="desc">A thin animated cyan and purple signal wave with a visible static fallback.</desc>
+  <defs>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#22D3EE"/>
+      <stop offset=".82" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="waveGlow" x="-10%" y="-100%" width="120%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1000" height="96" fill="#06080D"/>
+  <path d="M0 48h105l26-1 12-4 10-14 10 37 10-25 11 7h84l16-2 10-8 10 21 10-44 10 54 10-27 12 6h164l14-2 10-8 10 20 10-32 10 40 10-18 14 10h89l14-2 10-8 10 20 10-42 10 52 10-24 14 4h103" fill="none" stroke="url(#signal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#waveGlow)"/>
+  <path d="M0 48h105l26-1 12-4 10-14 10 37 10-25 11 7h84l16-2 10-8 10 21 10-44 10 54 10-27 12 6h164l14-2 10-8 10 20 10-32 10 40 10-18 14 10h89l14-2 10-8 10 20 10-42 10 52 10-24 14 4h103" fill="none" stroke="#E6EDF3" stroke-width="1" stroke-dasharray="3 18" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" values="0;-84" dur="3.2s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="500" cy="48" r="3" fill="#22D3EE">
+    <animate attributeName="r" values="2;5;2" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
