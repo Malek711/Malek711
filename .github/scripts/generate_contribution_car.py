@@ -18,8 +18,8 @@ if result.get("errors"):
 
 calendar = result["data"]["user"]["contributionsCollection"]["contributionCalendar"]
 weeks, total = calendar["weeks"], calendar["totalContributions"]
-cell, step, left, top = 11, 15, 46, 78
-width, height = left + len(weeks) * step + 42, top + 7 * step + 70
+cell, step, left, top = 10, 14, 44, 66
+width, height = left + len(weeks) * step + 38, top + 7 * step + 46
 counts = [d["contributionCount"] for w in weeks for d in w["contributionDays"]]
 peak = max(counts, default=1) or 1
 colors = ["#161B2B", "#0E4F5C", "#0E7490", "#2563EB", "#8B5CF6"]
@@ -49,7 +49,7 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{heigh
 <rect width="{width}" height="{height}" rx="22" fill="#0B1220"/><rect x="1" y="1" width="{width-2}" height="{height-2}" rx="21" fill="none" stroke="#243047"/>
 <rect x="22" y="22" width="5" height="31" rx="2.5" fill="url(#header)"/><text x="40" y="38" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.8">CONTRIBUTION DRIVE</text><text x="40" y="55" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">{total} contributions in the last year</text>
 <g>{''.join(cells)}</g><path id="route" d="{route}" fill="none" stroke="#22D3EE" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7" opacity=".3"/>
-<g filter="url(#shadow)"><animateMotion dur="18s" repeatCount="indefinite" rotate="auto"><mpath href="#route"/></animateMotion><path d="M-28,0H-17" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" opacity=".75"><animate attributeName="opacity" values=".2;1;.2" dur=".8s" repeatCount="indefinite"/></path><path d="M-24,-5H-15" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round" opacity=".6"/><path d="M-11,-2 L-7,-8 H4 L9,-3 H11 V4 H-11 V-2 Z" fill="#F97316"/><path d="M-5,-7 H3 L6,-3 H-7 Z" fill="#CFFAFE"/><rect x="-12" y="1" width="24" height="4" rx="2" fill="#FB923C"/><circle cx="13" cy="0" r="2.5" fill="#FDE68A"><animate attributeName="opacity" values=".5;1;.5" dur="1s" repeatCount="indefinite"/></circle><circle cx="-7" cy="5" r="3" fill="#0F172A"/><circle cx="7" cy="5" r="3" fill="#0F172A"/><circle cx="-7" cy="5" r="1.2" fill="#CBD5E1"/><circle cx="7" cy="5" r="1.2" fill="#CBD5E1"/></g>
+<g filter="url(#shadow)"><animateMotion dur="36s" repeatCount="indefinite" rotate="auto"><mpath href="#route"/></animateMotion><path d="M-28,0H-17" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" opacity=".75"><animate attributeName="opacity" values=".2;1;.2" dur=".8s" repeatCount="indefinite"/></path><path d="M-24,-5H-15" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round" opacity=".6"/><path d="M-11,-2 L-7,-8 H4 L9,-3 H11 V4 H-11 V-2 Z" fill="#F97316"/><path d="M-5,-7 H3 L6,-3 H-7 Z" fill="#CFFAFE"/><rect x="-12" y="1" width="24" height="4" rx="2" fill="#FB923C"/><circle cx="13" cy="0" r="2.5" fill="#FDE68A"><animate attributeName="opacity" values=".5;1;.5" dur="1s" repeatCount="indefinite"/></circle><circle cx="-7" cy="5" r="3" fill="#0F172A"/><circle cx="7" cy="5" r="3" fill="#0F172A"/><circle cx="-7" cy="5" r="1.2" fill="#CBD5E1"/><circle cx="7" cy="5" r="1.2" fill="#CBD5E1"/></g>
 <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" fill="#94A3B8"><text x="{left}" y="{height-25}">Less</text>{''.join(f'<rect x="{left+31+i*16}" y="{height-35}" width="11" height="11" rx="3" fill="{color}"/>' for i,color in enumerate(colors))}<text x="{left+113}" y="{height-25}">More</text></g>
 </svg>"""
 output.parent.mkdir(parents=True, exist_ok=True)
