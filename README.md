@@ -48,7 +48,7 @@ An interactive guide to graphics functions and core visual programming concepts 
 ## Contribution drive
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Malek711/Malek711/output/github-contribution-grid-car.svg?v=portrait-fix-slow-3" width="100%" alt="Animated car driving across Malek711 GitHub contribution days">
+  <img src="https://raw.githubusercontent.com/Malek711/Malek711/output/github-contribution-grid-car.svg?v=horizontal-motion-6" width="100%" alt="Animated car driving across Malek711 GitHub contribution days">
 </div>
 
 <div align="center">
