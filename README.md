@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Malek711/Malek711/main/assets/ui/boot-console.svg?v=dark-energy-2" width="100%" alt="Malek Nabil profile card">
+<img src="https://raw.githubusercontent.com/Malek711/Malek711/main/assets/ui/boot-console.svg?v=portrait-fix-slow-3" width="100%" alt="Malek Nabil profile card">
 
 <br><br>
 
@@ -48,7 +48,7 @@ An interactive guide to graphics functions and core visual programming concepts 
 ## Contribution drive
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Malek711/Malek711/output/github-contribution-grid-car.svg?v=dark-energy-2" width="100%" alt="Animated car driving across Malek711 GitHub contribution days">
+  <img src="https://raw.githubusercontent.com/Malek711/Malek711/output/github-contribution-grid-car.svg?v=portrait-fix-slow-3" width="100%" alt="Animated car driving across Malek711 GitHub contribution days">
 </div>
 
 <div align="center">
