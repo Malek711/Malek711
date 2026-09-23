@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Malek711/Malek711/main/assets/ui/boot-console.svg?v=portrait-fix-slow-3" width="100%" alt="Malek Nabil profile card">
+<img src="https://raw.githubusercontent.com/Malek711/Malek711/main/assets/ui/profile-card.jpg?v=full-photo-raster-4" width="100%" alt="Malek Nabil profile card">
 
 <br><br>
 
