@@ -81,32 +81,6 @@ Interested in data engineering, computer vision, OCR, and practical AI systems.
 
 <br><br>
 
-<code>CONTRIBUTION.TRACE // AUTONOMOUS SNAKE</code>
-
-<br><br>
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Malek711/Malek711/output/github-contribution-grid-snake-dark.svg"
-  >
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Malek711/Malek711/output/github-contribution-grid-snake.svg"
-  >
-  <img
-    src="https://raw.githubusercontent.com/Malek711/Malek711/output/github-contribution-grid-snake.svg"
-    width="100%"
-    alt="Animated snake following Malek711 GitHub contribution points"
-  >
-</picture>
-
-<br>
-
-<sub><code>TRACE REFRESH // EVERY 24 HOURS</code></sub>
-
-<br><br>
-
 <a href="https://github.com/Malek711">
   <img src="https://img.shields.io/badge/GITHUB-111827?style=for-the-badge&logo=github&logoColor=E6EDF3" alt="Open Malek711 GitHub profile">
 </a>
