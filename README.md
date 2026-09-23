@@ -45,6 +45,12 @@ An interactive guide to graphics functions and core visual programming concepts 
 </tr>
 </table>
 
+## Contribution drive
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Malek711/Malek711/output/github-contribution-grid-car.svg" width="100%" alt="Animated car driving across Malek711 GitHub contribution days">
+</div>
+
 <div align="center">
   <sub>Building reliable systems where data meets intelligence.</sub>
 </div>
