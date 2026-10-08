@@ -8,8 +8,8 @@
     <path d="M754 112h28v56" opacity=".3"/>
   </g>
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="60" y="105" fill="#F8FAFC" font-size="58" font-weight="700">Malek Nabil</text>
-    <text x="62" y="161" fill="#F8FAFC" font-size="28">Developer · C# and web applications</text>
-    <text x="62" y="225" fill="#94A3B8" font-size="25">Clear thinking. Practical solutions.</text>
+    <text x="60" y="105" fill="#F8FAFC" font-size="66" font-weight="700">Malek Nabil</text>
+    <text x="62" y="161" fill="#F8FAFC" font-size="35">Developer · C# and web applications</text>
+    <text x="62" y="225" fill="#94A3B8" font-size="31">Clear thinking. Practical solutions.</text>
   </g>
 </svg>
