@@ -1,56 +1,24 @@
-<div align="center">
+![Malek Nabil — developer focused on C# and web applications](assets/profile-header.svg)
 
-<img src="https://raw.githubusercontent.com/Malek711/Malek711/main/assets/ui/profile-card.jpg?v=energy-visible-5" width="100%" alt="Malek Nabil profile card">
+## About
 
-<br><br>
+I build practical applications and technical learning tools, with an interest in clear interfaces and dependable data workflows. My work spans C# data access and web development.
 
-<a href="https://github.com/Malek711">
-  <img src="https://img.shields.io/badge/GitHub-Malek711-111827?style=flat-square&logo=github&logoColor=white" alt="GitHub profile">
-</a>
-<a href="mailto:alkosimalek@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact_Me-111827?style=flat-square&logo=gmail&logoColor=white" alt="Email Malek Nabil">
-</a>
+## Selected Projects
 
-<br><br>
+- **[Contact Manager](https://github.com/Malek711/Contact-Manager-ADO.NET)** — A console tool for finding, updating, and deleting contact records through parameterized database queries. **Tech:** C#, ADO.NET, SQL Server.
+- **[C++ Graphics Functions Tutorial](https://github.com/Malek711/CPP-Graphics-Functions-Tutorial)** — An Arabic reference that makes `graphics.h` functions easier to find and use in computer graphics labs. Its navigable, print-friendly page uses HTML, CSS, JavaScript, and Prism.js.
 
-<img src="https://img.shields.io/badge/C%23-0D1117?style=flat-square&logo=csharp&logoColor=22D3EE" alt="C Sharp">
-<img src="https://img.shields.io/badge/.NET-0D1117?style=flat-square&logo=dotnet&logoColor=A855F7" alt=".NET">
-<img src="https://img.shields.io/badge/SQL_Server-0D1117?style=flat-square&logo=microsoftsqlserver&logoColor=22D3EE" alt="SQL Server">
-<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=A855F7" alt="Python">
+## Technical Skills
 
-</div>
+- **Application and data work:** C#, ADO.NET, SQL Server.
+- **Web interfaces:** HTML, CSS, JavaScript, React, TypeScript, Vite.
+- **Currently learning:** C++ graphics, PostgreSQL-backed APIs, and Vercel Functions.
 
-## Selected work
+## Current Focus
 
-<table>
-<tr>
-<td width="50%" valign="top">
+I am building **Madar**, an Arabic exam-practice platform, and moving its challenge API to Vercel Functions and PostgreSQL.
 
-### [Contact Manager](https://github.com/Malek711/Contact-Manager-ADO.NET)
+## Connect
 
-A practical C# contact-management application using ADO.NET and SQL Server.
-
-`C#` · `ADO.NET` · `SQL Server`
-
-</td>
-<td width="50%" valign="top">
-
-### [C++ Graphics Tutorial](https://github.com/Malek711/CPP-Graphics-Functions-Tutorial)
-
-An interactive guide to graphics functions and core visual programming concepts in C++.
-
-`C++` · `Graphics` · `Tutorial`
-
-</td>
-</tr>
-</table>
-
-## Contribution drive
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Malek711/Malek711/output/github-contribution-grid-car.svg?v=horizontal-motion-6" width="100%" alt="Animated car driving across Malek711 GitHub contribution days">
-</div>
-
-<div align="center">
-  <sub>Building reliable systems where data meets intelligence.</sub>
-</div>
+[GitHub](https://github.com/Malek711) · [Email](mailto:alkosimalek@gmail.com)
