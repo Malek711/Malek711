@@ -13,7 +13,8 @@ I build practical applications and technical learning tools, with an interest in
 
 - **Application and data work:** C#, ADO.NET, SQL Server.
 - **Web interfaces:** HTML, CSS, JavaScript, React, TypeScript, Vite.
-- **Currently learning:** C++ graphics, PostgreSQL-backed APIs, and Vercel Functions.
+- **Learning resources:** C++ graphics (`graphics.h`) examples.
+- **Currently learning:** PostgreSQL-backed APIs and Vercel Functions.
 
 ## Current Focus
 
