@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-labelledby="title description">
+  <title id="title">Malek Nabil — developer</title>
+  <desc id="description">Clear thinking. Practical solutions.</desc>
+  <rect width="900" height="280" fill="#0F172A"/>
+  <g fill="none" stroke="#22D3EE" stroke-width="2">
+    <path d="M686 44h164v192" opacity=".9"/>
+    <path d="M720 78h96v124" opacity=".55"/>
+    <path d="M754 112h28v56" opacity=".3"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="105" fill="#F8FAFC" font-size="58" font-weight="700">Malek Nabil</text>
+    <text x="62" y="161" fill="#F8FAFC" font-size="28">Developer · C# and web applications</text>
+    <text x="62" y="225" fill="#94A3B8" font-size="25">Clear thinking. Practical solutions.</text>
+  </g>
+</svg>
